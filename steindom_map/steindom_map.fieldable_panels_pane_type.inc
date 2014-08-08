@@ -15,7 +15,7 @@ function steindom_map_default_fieldable_panels_pane_type() {
   $fieldable_panels_pane_type->api_version = 1;
   $fieldable_panels_pane_type->name = 'steindom_map';
   $fieldable_panels_pane_type->title = 'Map';
-  $fieldable_panels_pane_type->description = '';
+  $fieldable_panels_pane_type->description = 'A Google map from a one-line address/location.';
   $export['steindom_map'] = $fieldable_panels_pane_type;
 
   return $export;
